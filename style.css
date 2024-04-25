@@ -1,0 +1,33 @@
+html {
+    background-color: #363636;
+    box-sizing: border-box;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menuItems {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    list-style-type: none;
+}
+
+header input {
+    border-radius: 25px;
+    height: 20px;
+}
+
+header h1 {
+    color: white;
+}
