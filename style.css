@@ -1,33 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
 html {
-    background-color: #363636;
-    box-sizing: border-box;
+  background-color: #14181c;
+  box-sizing: border-box;
+}
+
+body {
+  height: 1vh;
+  background-image: url("https://cupulatrovao.com.br/wp-content/uploads/2019/10/Capa-analise-kimetsu-no-yaiba.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  height: 100vh;
+  position: relative;
 }
 
 header a {
-    text-decoration: none;
-    color: white;
-    
+  text-decoration: none;
+  color: white;
 }
 
 header {
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: medium;
 }
 
 .menuItems {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  list-style-type: none;
 }
 
 header input {
-    border-radius: 25px;
-    height: 20px;
+  border-radius: 25px;
+  height: 20px;
 }
 
 header h1 {
-    color: white;
+  color: white;
+}
+
+footer {
+  align-items: center;
+  background-color: rgba(44, 52, 64, 0.75) !important;
+  bottom: 0;
+  color: #ffff;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  height: 60px;
+  justify-content: center;
+  position: fixed;
+  text-decoration: none;
+  width: 100%;
+}
+
+ul {
+  color: #ffff;
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+  font-size: large;
 }
